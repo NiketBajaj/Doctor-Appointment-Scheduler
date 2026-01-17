@@ -2,8 +2,6 @@
 
 A modern, interactive appointment booking application built with **React**, **TypeScript**, and **Vite**. This application allows users to view doctor availability based on specific shifts, check daily schedules, and book 30-minute appointment slots.
 
-![Scheduler Preview](https://via.placeholder.com/800x400?text=Appointment+Scheduler+Preview)
-
 ## 🚀 Features
 
 *   **Smart Doctor Availability**: Automatically filters and displays doctors who are working at the selected date and time.
