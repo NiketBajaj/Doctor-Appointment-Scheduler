@@ -1,0 +1,18 @@
+
+> appointment-scheduler-react@0.0.0 dev
+> vite --host
+
+Port 5173 is in use, trying another one...
+
+  VITE v4.5.14  ready in 142 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: http://192.168.1.5:5174/
+  ➜  Network: http://192.168.1.6:5174/
+11:34:45 p.m. [vite] hmr update /src/App.tsx
+11:34:54 p.m. [vite] hmr update /src/App.css
+11:37:06 p.m. [vite] hmr update /src/App.tsx
+11:37:20 p.m. [vite] hmr update /src/App.css
+11:41:14 p.m. [vite] hmr update /src/App.tsx
+11:44:52 p.m. [vite] hmr update /src/App.tsx
+11:45:07 p.m. [vite] hmr update /src/App.css
