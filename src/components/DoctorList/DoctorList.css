@@ -1,0 +1,113 @@
+.doctor-list-container {
+  margin-bottom: 1.5rem;
+}
+
+.doctor-list-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.selected-time {
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.doctor-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.doctor-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  border-left: 4px solid #4CAF50;
+  transition: all 0.3s ease;
+}
+
+.doctor-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-name {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #2c3e50;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.doctor-name:hover {
+  color: #4CAF50;
+}
+
+.check-icon {
+  color: #4CAF50;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.confirm-btn {
+  background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.confirm-btn:hover {
+  background: linear-gradient(135deg, #45a049 0%, #3d8b40 100%);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+  transform: translateY(-2px);
+}
+
+.confirm-btn:active {
+  transform: translateY(0);
+}
+
+.booked-badge {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(255, 152, 0, 0.3);
+}
+
+.doctor-list-empty {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  font-size: 1.05rem;
+}
+
+.unavailable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+  border-radius: 12px;
+  border-left: 4px solid #f44336;
+  color: #c62828;
+  font-weight: 600;
+}
+
+.x-icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
